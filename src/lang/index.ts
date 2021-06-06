@@ -5,10 +5,9 @@ export default {
 
   FIRST_COME: '[BOT] Chào mừng bạn đến với ' + config.APP_NAME + '. Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chọn đúng giới tính người muốn chat cùng.\n\nẤn trợ giúp (hoặc gửi trogiup) để xem thêm.',
 
-  INSTRUCTION: '[BOT] Gửi batdau hoặc bấm vào nút để tìm bạn chat.',
+  INSTRUCTION: '[BOT] Gửi timnam hoặc timnu hoặc bấm vào nút để tìm bạn chat.',
 
   HELP_TXT: '[BOT] Danh sách các lệnh:\n' +
-            '- batdau: Bắt đầu tìm bạn chat\n' +
             '- ketthuc: Kết thúc chat\n' +
             '- trogiup: Xem trợ giúp\n' +
             '- meow: Xem ảnh mèo\n' +
@@ -24,8 +23,8 @@ export default {
   WAITING: '[BOT] Đang tìm bạn chat... Nếu bạn muốn đổi giới tính, gửi ketthuc sau đó chọn giới tính mới.',
   CONNECTED: '[BOT] Connected! Nếu muốn kết thúc, hãy gửi ketthuc',
 
-  END_CHAT: '[BOT] End chat!\nGửi batdau hoặc bấm vào nút để tìm bạn chat.',
-  END_CHAT_PARTNER: '[BOT] Bạn ý đã ngắt kết nối :(\nGửi batdau hoặc bấm vào nút để tìm bạn chat.',
+  END_CHAT: '[BOT] End chat!\nGửi timnam hoặc timnu hoặc bấm vào nút để tìm bạn chat.',
+  END_CHAT_PARTNER: '[BOT] Bạn ý đã ngắt kết nối :(\nGửi timnam hoặc timnu hoặc bấm vào nút để tìm bạn chat.',
   END_CHAT_FORCE: '[BOT] Hiện tại không có ai đang online cả. Bạn hãy thử lại sau nhé :(',
 
   ERR_ATTACHMENT: '[BOT] Lỗi: Chatbot chưa hỗ trợ gửi dạng dữ liệu này',

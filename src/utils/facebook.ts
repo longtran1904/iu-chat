@@ -62,16 +62,6 @@ const persistent_menu = [
 const quick_buttons_generic: Array<SendQuickReply> = [
   {
     content_type: 'text',
-    title: 'meow',
-    payload: lang.KEYWORD_CAT
-  },
-  {
-    content_type: 'text',
-    title: 'gauw',
-    payload: lang.KEYWORD_DOG
-  },
-  {
-    content_type: 'text',
     title: 'trợ giúp',
     payload: lang.KEYWORD_HELP
   }
@@ -107,7 +97,7 @@ const setPersona = async (): Promise<void> => {
       logger.logError('facebook::setPersona', 'Failed to get personas', body, true);
     } else {
       for (let i = 0; i < body.data.length; i++) {
-        if (body.data[i].name === 'Đối chat') {
+        if (body.data[i].name === 'Đối chat' && body.data[i].profile_picture_url === 'https://i.imgur.com/jsAu6iw.png') {
           setUp = true;
           personaID = body.data[i].id;
           break;
