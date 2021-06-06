@@ -31,16 +31,6 @@ const persistent_menu = [
     composer_input_disabled: false,
     call_to_actions: [
       {
-        title: 'meow',
-        type: 'postback',
-        payload: lang.KEYWORD_CAT
-      },
-      {
-        title: 'gauw',
-        type: 'postback',
-        payload: lang.KEYWORD_DOG
-      },
-      {
         title: 'tìm nam',
         type: 'postback',
         payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_MALE
@@ -338,7 +328,9 @@ const sendTextButtons = async (
   const buttons = [];
 
   if (showStartButton) {
-    buttons.push({ type: 'postback', title: 'Bắt đầu chat', payload: lang.KEYWORD_START });
+    buttons.push({ type: 'postback', title: 'Tìm nam', payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_MALE });
+    buttons.push({ type: 'postback', title: 'Tìm nữ', payload: lang.KEYWORD_GENDER + lang.KEYWORD_GENDER_FEMALE });
+    
   }
 
   if (showReportButton) {

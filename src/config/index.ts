@@ -82,11 +82,11 @@ export default {
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
 
   // App name (must be the same on Heroku)
-  APP_NAME: parseEnvString('APP_NAME') || 'ptnkchat',
+  APP_NAME: parseEnvString('APP_NAME') || 'iu-chatible',
 
   // Page persona profile picture
   PERSONA_PROFILE_PICTURE:
-    parseEnvString('PERSONA_PROFILE_PICTURE') || 'https://ptnkchat.github.io/assets/ptnk_logo.jpeg',
+    parseEnvString('PERSONA_PROFILE_PICTURE') || 'https://i.imgur.com/jsAu6iw.png',
 
   // Heroku API key
   HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || '',
