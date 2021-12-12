@@ -82,7 +82,7 @@ export default {
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
 
   // App name (must be the same on Heroku)
-  APP_NAME: parseEnvString('APP_NAME') || 'iu-chatible',
+  APP_NAME: parseEnvString('APP_NAME') || 'IU Chatible',
 
   // Page persona profile picture
   PERSONA_PROFILE_PICTURE:
